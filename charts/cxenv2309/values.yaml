@@ -15,3 +15,6 @@ edcprovider:
 edcconsumer:
   participant:
     id: consumer
+  vault:
+    hashicorp:
+      token: "XXXXXX"
