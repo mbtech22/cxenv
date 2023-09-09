@@ -3,12 +3,13 @@ edcprovider:
     id: provider
   vault:
     hashicorp:
-      token: "XXXXXXX"
+      token: "XXXXXX"
   controlplane:
     endpoints:
       management:
-        authKey: "XXXXXXX"
-
+        authKey: "XXXXXX"
+  backendService:
+    httpProxyTokenReceiverUrl: "XXXXXX"
 
 
 edcconsumer:
