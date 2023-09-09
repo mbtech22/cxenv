@@ -34,6 +34,7 @@ dependencies:
   - alias: BPN-Discovery
     name: bpndiscovery
     version: 0.1.11 	#0.2.5-M1
+    repository: tractusx/bpndiscovery
   - alias: Discovery-Finder 	
     name: discoveryfinder
     version: 0.1.11 	#v0.2.4-M1
