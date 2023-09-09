@@ -54,7 +54,7 @@ dependencies:
   - alias: EDC
     name: tractusx-connector
     version: 0.5.1 	#0.5.1
-    repository: https://eclipse-tractusx.github.io/tractusx-edc
+    repository: https://eclipse-tractusx.github.io/charts/dev
   - alias: BPN-Service
     name: bpdm
     version: 3.0.4 	#v4.0.1
