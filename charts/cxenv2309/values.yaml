@@ -18,3 +18,7 @@ edcconsumer:
   vault:
     hashicorp:
       token: "XXXXXX"
+  controlplane:
+    endpoints:
+      management:
+        authKey: "XXXXXX"
