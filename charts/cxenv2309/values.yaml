@@ -1,4 +1,4 @@
-edcprovider:
+edc-provider:
   participant:
     id: provider
   vault:
@@ -12,7 +12,7 @@ edcprovider:
     httpProxyTokenReceiverUrl: "XXXXXX"
 
 
-edcconsumer:
+edc-consumer:
   participant:
     id: consumer
   vault:
@@ -26,7 +26,7 @@ edcconsumer:
     httpProxyTokenReceiverUrl: "XXXXXX"
 
 
-MIW:
+miw:
   serviceAccount:
     # --  Enable creation of ServiceAccount
     create: false
