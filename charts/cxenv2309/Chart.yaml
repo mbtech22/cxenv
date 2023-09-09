@@ -16,35 +16,35 @@ dependencies:
   #   name: certs
   #   version: 0.1.0
 
-  - alias: Digital-Twin-Registry
+  - alias: dtr
     name: registry
     version: 0.3.24 	#v0.3.16-M1
     repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: edcconsumer
+  - alias: edc-consumer
     name: tractusx-connector
     version: 0.5.1 	#0.5.1
     repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: edcprovider
+  - alias: edc-provider
     name: tractusx-connector
     version: 0.5.1 	#0.5.1
     repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: BPN-Service
+  - alias: bpn-Service
     name: bpdm
     version: 3.0.4 	#v4.0.1
     repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: MIW
+  - alias: miw
     name: managed-identity-wallet
     version: 0.1.0 	#0.1.0
     repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: Portal
+  - alias: portal
     name: 	portal
     version: 1.6.0 #v1.5.0
     repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: SD-Factory
+  - alias: sd-factory
     name: 	sdfactory 
     version: 2.1.7 	#v2.1.6
     repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: Semantic-Hub
+  - alias: semantic-hub
     name:  	semantic-hub
     version: 0.1.29 	#v0.2.11-M1
     repository: https://eclipse-tractusx.github.io/charts/dev
