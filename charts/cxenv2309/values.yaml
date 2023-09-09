@@ -3,7 +3,7 @@ edcprovider:
     id: provider
   vault:
     hashicorp:
-      token: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      token: *edcVaultToken
 edcconsumer:
   participant:
     id: consumer
