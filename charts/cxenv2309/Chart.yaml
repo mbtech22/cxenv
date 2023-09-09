@@ -31,48 +31,48 @@ dependencies:
   #   version: 0.5.0-rc1
   #   repository: https://eclipse-tractusx.github.io/charts/dev
 
-  - alias: BPN Discovery
-    name: bpndiscovery 
+  - alias: BPN-Discovery
+    name: bpndiscovery
     version: 0.1.11 	#0.2.5-M1
-  - alias: Discovery Finder 	
+  - alias: Discovery-Finder 	
     name: discoveryfinder
     version: 0.1.11 	#v0.2.4-M1
-  - alias: Knowledge Agents
+  - alias: Knowledge-Agents
     name: remoting-agent
     version: 1.9.8 	#1.9.8
-  - alias: Digital Product Pass
+  - alias: Digital-Product-Pass
     name: digital-product-pass
     version: v1.0.1 	#v1.0.1
-  - alias: Digital Twin Registry
+  - alias: Digital-Twin-Registry
     name: registry
     version: 0.3.24 	#v0.3.16-M1
-  - alias: Eclipse Data Space Connector (EDC)
+  - alias: EDC
     name: tractusx-connector
     version: 0.5.1 	#0.5.1
-  - alias: Golden Record Business Partner Number (BPN) Service
+  - alias: BPN-Service
     name: bpdm
     version: 3.0.4 	#v4.0.1
-  - alias: Item Relationship Service (IRS)
+  - alias: IRS
     name: irs-helm
     version: 6.4.2 	#3.3.4
-  - alias: Managed Identity Wallet (MIW)
+  - alias: MIW
     name: managed-identity-wallet
     version: 0.1.0 	#0.1.0
-  - alias: Managed Service Orchestrator
+  - alias: Managed-Service-Orchestrator
     name: managed-service-orchestrator
     version: 1.5.0 	#1.5.0
   - alias: Portal
     name: 	portal
     version: 1.6.0 #v1.5.0
-  - alias: Self Description (SD) Factory
+  - alias: SD-Factory
     name: 	sdfactory 
     version: 2.1.7 	#v2.1.6
-  - alias: Semantic Hub
+  - alias: Semantic-Hub
     name:  	semantic-hub
     version: 0.1.29 	#v0.2.11-M1
-  - alias: Simple Data Exchanger (SDE)
+  - alias: SDE
     name: 	sde
     version: 0.0.9 #v2.1.1
-  - alias: Trace-X Traceability Application
+  - alias: Trace-X
     name: trace-x
     version:  	1.3.12 	#6.0.0
