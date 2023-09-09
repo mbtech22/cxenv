@@ -11,48 +11,66 @@ version: 0.0.1
 appversion: 23.09
 
 dependencies:
-  - alias: certsconsumer
-    name: certs
-    version: 0.1.0
-  - alias: certsprovider
-    name: certs
-    version: 0.1.0
+  # - alias: certsconsumer
+  #   name: certs
+  #   version: 0.1.0
+  # - alias: certsprovider
+  #   name: certs
+  #   version: 0.1.0
 
-  # edc consumer
-  - alias: edcconsumer
-    name: tractusx-connector-legacy
-    version: 0.5.0-rc1
-    repository: https://eclipse-tractusx.github.io/charts/dev
-  # edc provider
-  - alias: edcprovider
-    name: tractusx-connector-legacy
-    version: 0.5.0-rc1
-    repository: https://eclipse-tractusx.github.io/charts/dev
+  # # edc consumer
+  # - alias: edcconsumer
+  #   name: tractusx-connector-legacy
+  #   version: 0.5.0-rc1
+  #   repository: https://eclipse-tractusx.github.io/charts/dev
+  # # edc provider
+  # - alias: edcprovider
+  #   name: tractusx-connector-legacy
+  #   version: 0.5.0-rc1
+  #   repository: https://eclipse-tractusx.github.io/charts/dev
 
-- alias: BPN Discovery
-name: bpndiscovery 
-version: 0.1.11 	#0.2.5-M1
-- alias: Discovery Finder 	
-name: discoveryfinder
-version: 0.1.11 	#v0.2.4-M1
-- alias: Knowledge Agents
-name: remoting-agent
-version: 1.9.8 	#1.9.8
-- alias: Digital Product Pass
-name: digital-product-pass
-version: v1.0.1 	#v1.0.1
-- alias: Digital Twin Registry
-name: registry: 0.3.24 	v0.3.16-M1
-Eclipse Data Space Connector (EDC) 	tractusx-connector: 0.5.1 	0.5.1
-Golden Record Business Partner Number (BPN) Service 	bpdm: 3.0.4 	v4.0.1
-Item Relationship Service (IRS) 	irs-helm: 6.4.2 	3.3.4
-Managed Identity Wallet (MIW) 	managed-identity-wallet: 0.1.0 	0.1.0
-Managed Service Orchestrator
-(Renamed from Autosetup Service) 	managed-service-orchestrator: 1.5.0 	1.5.0
-Portal 	portal: 1.6.0 	Registration: v1.5.0
-
-Self Description (SD) Factory 	sdfactory: 2.1.7 	v2.1.6
-Semantic Hub 	semantic-hub: 0.1.29 	v0.2.11-M1
-Simple Data Exchanger (SDE) 	sde: 0.0.9 	Frontend: v2.1.1
-Backend: v2.1.1
-Trace-X Traceability Application 	1.3.12 	6.0.0
+  - alias: BPN Discovery
+    name: bpndiscovery 
+    version: 0.1.11 	#0.2.5-M1
+  - alias: Discovery Finder 	
+    name: discoveryfinder
+    version: 0.1.11 	#v0.2.4-M1
+  - alias: Knowledge Agents
+    name: remoting-agent
+    version: 1.9.8 	#1.9.8
+  - alias: Digital Product Pass
+    name: digital-product-pass
+    version: v1.0.1 	#v1.0.1
+  - alias: Digital Twin Registry
+    name: registry
+    version: 0.3.24 	#v0.3.16-M1
+  - alias: Eclipse Data Space Connector (EDC)
+    name: tractusx-connector
+    version: 0.5.1 	#0.5.1
+  - alias: Golden Record Business Partner Number (BPN) Service
+    name: bpdm
+    version: 3.0.4 	#v4.0.1
+  - alias: Item Relationship Service (IRS)
+    name: irs-helm
+    version: 6.4.2 	#3.3.4
+  - alias: Managed Identity Wallet (MIW)
+    name: managed-identity-wallet
+    version: 0.1.0 	#0.1.0
+  - alias: Managed Service Orchestrator
+    name: managed-service-orchestrator
+    version: 1.5.0 	#1.5.0
+  - alias: Portal
+    name: 	portal
+    version: 1.6.0 #v1.5.0
+  - alias: Self Description (SD) Factory
+    name: 	sdfactory 
+    version: 2.1.7 	#v2.1.6
+  - alias: Semantic Hub
+    name:  	semantic-hub
+    version: 0.1.29 	#v0.2.11-M1
+  - alias: Simple Data Exchanger (SDE)
+    name: 	sde
+    version: 0.0.9 #v2.1.1
+  - alias: Trace-X Traceability Application
+    name: trace-x
+    version:  	1.3.12 	#6.0.0
