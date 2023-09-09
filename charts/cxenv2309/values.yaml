@@ -24,3 +24,9 @@ edcconsumer:
         authKey: "XXXXXX"
   backendService:
     httpProxyTokenReceiverUrl: "XXXXXX"
+
+
+
+MIW:
+  serviceAccount:
+    name: "xxxxxx.com"
