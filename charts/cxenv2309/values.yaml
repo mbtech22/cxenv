@@ -22,3 +22,5 @@ edcconsumer:
     endpoints:
       management:
         authKey: "XXXXXX"
+  backendService:
+    httpProxyTokenReceiverUrl: "XXXXXX"
