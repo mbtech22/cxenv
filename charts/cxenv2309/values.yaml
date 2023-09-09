@@ -1,1 +1,6 @@
-#
+edcprovider:
+  participant:
+    id: provider
+edcconsumer:
+  participant:
+    id: provider
