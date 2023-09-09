@@ -16,18 +16,18 @@ dependencies:
   #   name: certs
   #   version: 0.1.0
 
-  - alias: dtr
-    name: registry
-    version: 0.3.24 	#v0.3.16-M1
-    repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: edc-consumer
-    name: tractusx-connector
-    version: 0.5.1 	#0.5.1
-    repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: edc-provider
-    name: tractusx-connector
-    version: 0.5.1 	#0.5.1
-    repository: https://eclipse-tractusx.github.io/charts/dev
+#  - alias: dtr
+#    name: registry
+#    version: 0.3.24 	#v0.3.16-M1
+#    repository: https://eclipse-tractusx.github.io/charts/dev
+#  - alias: edc-consumer
+#    name: tractusx-connector
+#    version: 0.5.1 	#0.5.1
+#    repository: https://eclipse-tractusx.github.io/charts/dev
+#  - alias: edc-provider
+#    name: tractusx-connector
+#    version: 0.5.1 	#0.5.1
+#    repository: https://eclipse-tractusx.github.io/charts/dev
   - alias: bpdm
     name: bpdm
     version: 3.0.4 	#v4.0.1
