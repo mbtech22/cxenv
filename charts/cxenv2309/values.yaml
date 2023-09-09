@@ -4,6 +4,13 @@ edcprovider:
   vault:
     hashicorp:
       token: "XXXXXXX"
+  controlplane:
+    endpoints:
+      management:
+        authKey: "XXXXXXX"
+
+
+
 edcconsumer:
   participant:
     id: consumer
