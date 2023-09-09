@@ -1,6 +1,9 @@
 edcprovider:
   participant:
     id: provider
+  vault:
+    hashicorp:
+      token: ""
 edcconsumer:
   participant:
-    id: provider
+    id: consumer
