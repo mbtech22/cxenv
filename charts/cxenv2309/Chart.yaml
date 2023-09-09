@@ -51,7 +51,11 @@ dependencies:
     name: registry
     version: 0.3.24 	#v0.3.16-M1
     repository: https://eclipse-tractusx.github.io/charts/dev
-  - alias: EDC
+  - alias: edcconsumer
+    name: tractusx-connector
+    version: 0.5.1 	#0.5.1
+    repository: https://eclipse-tractusx.github.io/charts/dev
+  - alias: edcprovider
     name: tractusx-connector
     version: 0.5.1 	#0.5.1
     repository: https://eclipse-tractusx.github.io/charts/dev
