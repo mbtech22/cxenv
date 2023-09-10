@@ -1,19 +1,24 @@
-project: default
-source:
-  repoURL: 'https://github.com/mbtech22/cxenv.git'
-  path: charts/cxenv2309
-  targetRevision: HEAD
-destination:
-  namespace: lab3
-  name: in-cluster
-syncPolicy:
-  automated:
-    selfHeal: true
-  syncOptions:
-    - CreateNamespace=true
-  retry:
-    limit: 2
-    backoff:
-      duration: 5s
-      factor: 2
-      maxDuration: 3m0s
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: 'umbrella'
+spec:
+  project: default
+  source:
+    repoURL: 'https://github.com/mbtech22/cxenv.git'
+    path: charts/cxenv2309
+    targetRevision: HEAD
+  destination:
+    namespace: lab3
+    name: in-cluster
+  syncPolicy:
+    automated:
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+    retry:
+      limit: 2
+      backoff:
+        duration: 5s
+        factor: 2
+        maxDuration: 3m0s
